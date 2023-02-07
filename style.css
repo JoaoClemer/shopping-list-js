@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.header i {
+    font-size: 22px;
+}
+
+.shop-li {
+    margin-top: 40px;
+}
+
+#inpItens {
+    width: 170px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+#inpPrice {
+    width: 80px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+#inpQuant {
+    width: 80px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+div#inputs {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px grey;
+}
+
+button#addItem {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: rgb(40, 233, 104);
+    color: white;
+    font-size: 15px;
+    font: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button#clearAll {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: rgb(233, 40, 72);
+    color: white;
+    font-size: 15px;
+    font: bold;
+    cursor: pointer;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.divLi {
+    margin-top: 20px;
+    padding: 2px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
+    align-items: center;
+    position: relative;
+}
+
+li.divLi {
+    list-style-type: none;
+    width: 554px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(230, 229, 229);
+
+}
+
+.delete {
+    position: absolute;
+    left: 510px;
+}
+
+@media (max-width :775px) {
+    input {
+        width: 70%;
+    }
+
+    div#inputs button {
+        width: 30%;
+    }
+
+    p {
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    button {
+        width: 30%;
+    }
+}
